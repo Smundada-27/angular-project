@@ -1,0 +1,42 @@
+<p>
+  map-component works!
+</p>
+
+
+<button id="terrain" (click)="setMapType('terrain')" class="btn btn-primary" 
+style=" background-color: rgb(78, 76, 175);
+border: none;
+color: white;
+padding: 10px ;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;">Terrain</button>
+
+<button id="satellite" (click)="setMapType('satellite')" class="btn btn-danger"
+style=" background-color: rgb(78, 76, 175);
+border: none;
+color: white;
+padding: 10px ;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;">Satellite</button>
+
+<button id="roadmap" (click)="setMapType('roadmap')" class="btn btn-warning"
+style=" background-color: rgb(78, 76, 175);
+border: none;
+color: white;
+padding: 10px ;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;">Road Map</button>
+
+<div #gmap style="width:100%;height:400px">
+
+
+</div>
